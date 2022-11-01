@@ -4,11 +4,11 @@
 }
 
 :root {
-    --Color1-Det:#fa0000; /* Detalles */
-    --Color2-HyF:#010101; /* Header - Foother */
-    --Color3-Fondo:#9a9a9a; /* Fondo */
+    --Color1-Det:#fa0000; 
+    --Color2-HyF:#010101; 
+    --Color3-Fondo:#9a9a9a; 
     --Color4: white;
-    --Color5: #D9D9D9; /* Detalles 2*/
+    --Color5: #D9D9D9; 
   }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
@@ -18,7 +18,7 @@ body {
     background-color: var(--Color3-Fondo);
 }
 
-/*--- Header --*/
+
 header {
     background-color:var(--Color2-HyF);     
     padding: 32px 16px;               
@@ -98,7 +98,7 @@ header nav ul li:hover {
     text-decoration: none;
     
 }
-/*--- Main ---*/
+
 .section {
     padding: 32px 16px;
     display: flex;
@@ -134,7 +134,7 @@ header nav ul li:hover {
     background-color: var(--Color2-HyF)}
     
     
-/*--- footer ---*/
+
 footer {
     background-color: var(--Color2-HyF);      
     padding: 32px 16px;              
